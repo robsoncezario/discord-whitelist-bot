@@ -34,7 +34,7 @@ export default class ChannelService {
 					},
 					{
 						id: user.id,
-						allow: 'VIEW_CHANNEL'
+						allow: [ 'VIEW_CHANNEL', 'READ_MESSAGE_HISTORY' ]
 					}
 				]
 			})
