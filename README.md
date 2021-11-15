@@ -1,0 +1,2 @@
+# discord-whitelist-bot
+ 
