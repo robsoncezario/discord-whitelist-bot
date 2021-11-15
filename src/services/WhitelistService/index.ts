@@ -45,6 +45,12 @@ export default class WhitelistService {
 			CacheService.set(cacheKey, true, (60 * 60) * 24)
 		}
 
+		setTimeout(() => {
+			async function deleteChannel() {
+				await textChannel.delete()
+			}
+		}, 60000)
+
 		await message.react(approved ? '✅' : '❌')
 	}
 }
