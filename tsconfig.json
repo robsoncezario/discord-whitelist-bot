@@ -6,6 +6,7 @@
     "lib": ["esnext", "dom"],
     "esModuleInterop": true,
 		"typeRoots": ["./src/@types", "node_modules/@types"],
+		"skipLibCheck": true,
 
 		 /* Basic Options */
     // "incremental": true,                   /* Enable incremental compilation */
