@@ -49,6 +49,8 @@ export default class WhitelistService {
 			async function deleteChannel() {
 				await textChannel.delete()
 			}
+
+			deleteChannel()
 		}, 60000)
 
 		await message.react(approved ? '✅' : '❌')
