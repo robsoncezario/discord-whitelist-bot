@@ -1,8 +1,8 @@
-import WhitelistCommand from './Whitelist'
+import WhitelistCommand from "./Whitelist";
 
 export default [
-	{
-		label: 'whitelist',
-		handler: WhitelistCommand
-	}
-]
+  {
+    label: "whitelist",
+    handler: WhitelistCommand,
+  },
+];
